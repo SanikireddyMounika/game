@@ -1,0 +1,58 @@
+*{
+  margin: 0 ;
+  padding: 0%;
+  box-sizing: 0;
+}
+.image{
+  background-image:url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Man-holding-controller-in-front-of-PC-gaming-set1?scl=1&fmt=png-alpha") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 98vh;
+  width: 100%;
+  display: flex;
+ }
+ .bold{
+  display: flex;
+  justify-content: center;
+ 
+  gap: 20px;
+  flex-wrap: wrap;
+
+ }
+.text{
+  color: rgb(44, 41, 41);
+  background-color: aqua;
+  height: 80px;
+  font-size: large;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 5px;
+  width: 190px;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.btn{
+ 
+  height: 80px;
+  width: 120px;
+  margin: auto;
+  margin-left: 400px;
+
+}
+#nextt,#help{
+  margin-top: 600px;
+  margin-left: 1000px;
+  color: rgb(62, 56, 56);
+  background-color: aqua;
+  text-align: center;
+  padding-top: 9px;
+  width: 120px;
+  height: 70px;
+  border-radius: 4px;
+  
+}
+.help{
+  display:flex;
+  margin-top: 300px;
+}
